@@ -1,0 +1,151 @@
+html{
+  font-family: 'Roboto',sans-serif;
+}
+
+
+body{
+  background: #009fff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #009fff, #ec2f4b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #009fff, #ec2f4b);
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+.mainContainer{
+  width:80%;
+  background-color: white;
+  border-radius: 1em;
+  padding: 1.5em;
+
+  margin: 0 auto;
+  margin-top: 4em;
+}
+li{
+  float:left;
+  display: inline-block;
+  margin-left: 0em;
+  margin-right: 1em;
+}
+li a{
+  text-decoration: none;
+    color:black;
+}
+#loginButton{
+  float: right;
+  text-decoration: none;
+  color:gray;
+  margin-left: 10px;
+
+}
+
+.purpleButton{
+  font-size: 0.8em;
+  border-radius: 1.5em;
+  background-color: #6A1B9A;
+    color:white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all .2s ease-in-out;
+}
+.heading{
+  margin-top: 10em;
+  width: 100%;
+  float:left;
+  margin-left: 20px;
+}
+
+.headingImage{
+  width: 50%;
+  float:right;
+
+}
+.headingImage img{
+  width: 40%;
+  float:right;
+  margin: 2em;
+}
+.heading h3{
+  font-size: 2em;
+  margin-bottom: 0;
+}
+.heading h1{
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+p{
+  color:gray;
+}
+.heading span{
+  color:#8E24AA;
+}
+.serviceSection{
+    clear:both;
+    text-align:center;
+    width: 70%;
+    margin:0 auto;
+      
+}
+.niceBorder{
+  border-radius: 1em;
+  -webkit-box-shadow: -6px 6px 13px -2px rgba(84, 148, 233, 0.79);
+-moz-box-shadow:    -6px 6px 13px -2px rgba(84, 148, 233, 0.79);
+box-shadow:         -6px 6px 13px -2px rgba(84, 148, 233, 0.79);
+}
+.containerBorder{
+  -webkit-box-shadow: -2px 3px 7px 0px rgba(109, 0, 171, 0.75);
+-moz-box-shadow:    -2px 3px 7px 0px rgba(109, 0, 171, 0.75);
+box-shadow:         -2px 3px 7px 0px rgba(109, 0, 171, 0.75);
+}
+.serviceOffers{
+transition: all .2s ease-in;
+  margin:25px;
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+}
+.serviceOffers img{
+  width: 40%;
+}
+.textSection h1{
+  text-align: center;
+  font-size: 3.5em;
+}
+.textSection{
+  width: 70%;
+  margin: 0 auto;
+}
+.textSectionBorder{
+
+}
+
+/*Animations*/
+.serviceOffers:hover { transform: scale(1.1); }
+.purpleButton:hover{ transform: scale(1.05); margin-right: 1em;}
+
+/*Media queries*/
+@media screen and (max-width: 625px) {
+#loginButton{
+  color:black;
+
+
+  color:white;
+  margin-right: 25%;
+
+  margin-top: 3em;
+
+  font-size: 1em;
+
+  background-color: #6A1B9A;
+    color:white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
